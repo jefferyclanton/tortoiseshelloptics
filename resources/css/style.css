@@ -4,28 +4,46 @@ html {
   line-height: 1.4;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .banner {
   background-image: url(../images/glasses-bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 30rem;
 }
 
+.logo-container {
+  padding-top: 1rem;
+}
+
+.logo-container h1 {
+  display: flex;
+margin-top: 10rem;
+font-size: 2rem;
+font-weight: bold;
+line-height: 1.2;
+background-color: white;
+padding: 1.5rem 5rem;
+width: 25rem;
+height: auto;
+}
+
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: cadetblue;
   width: 960px;
   height: auto;
-  justify-content: center;
   margin: auto;
+  color: white;
+  height: 3.5rem;
 }
 
 .logo {
     display: flex;
-    justify-content: flex-start;
 }
 
 .logo img {
@@ -39,9 +57,12 @@ html {
 ul {
   display: flex;
   list-style-type: none;
-  align-items: center;
 }
 
 li {
   margin: 1rem 2rem 1rem 0;
+}
+
+.slogan {
+  background-color: black;
 }
