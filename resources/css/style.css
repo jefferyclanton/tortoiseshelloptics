@@ -18,7 +18,7 @@ html {
   padding-top: 1rem;
 }
 
-.logo-container h1 {
+h1 {
     margin-top: 10rem;
     font-size: 2rem;
     font-weight: bold;
@@ -28,7 +28,7 @@ html {
     width: 25rem;
     height: auto;
     float: right;
-    margin-right: 5rem;
+    h1in-right: 5rem;
 }
 
 .header {
@@ -55,9 +55,13 @@ html {
   margin-bottom: auto;
 }
 
-ul {
+.show-large {
   display: flex;
   list-style-type: none;
+}
+
+.show-small {
+  display: none;
 }
 
 li {
@@ -159,7 +163,7 @@ footer img {
   .header {
     width: 100%;
   }
-  .logo-container h1 {
+  h1 {
     margin-top: 12rem;
     margin-right: 1rem;
     font-size: 1.33rem;
@@ -172,12 +176,14 @@ footer img {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 450px) {
   .banner {
     height: 17rem;
     background-position: 20%;
   }
-  .logo-container h1 {
+
+h1 {
+    width: auto;
     margin-top: 9rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -226,8 +232,15 @@ footer img {
   }
   footer img {
     height: 1.5rem;
-    margin-top: auto;
-    margin-left: auto;
+    height: 1.5rem;
+    margin-left: 10rem;
     margin-right: auto;
+  }
+  .show-large {
+    display: none;
+  }
+  .show-small {
+    display: block;
+    list-style-type: none;
   }
 }
