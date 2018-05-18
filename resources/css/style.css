@@ -160,8 +160,8 @@ footer img {
     width: 100%;
   }
   .logo-container h1 {
-    margin-top: 5rem;
-    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-right: 1rem;
     font-size: 1.33rem;
     font-weight: bold;
     line-height: 1.2;
@@ -169,5 +169,65 @@ footer img {
     padding: 0.75rem 4rem;
     width: 16rem;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+  .logo-container h1 {
+    margin-top: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  .services p {
+    font-size: 0.77rem;
+  }
+
+  .image2 {
+    margin-top: 1.54rem;
+    margin-bottom: 1.54rem;
+  }
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .philosophy {
+    width: auto;
+  }
+
+  .philosophy h2 {
+    width: 100%;
+  }
+
+  .philosophy p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .appointments {
+    width: auto;
+  }
+  .appointments h2 {
+    width: 100%;
+  }
+  footer p {
+    display: none;
+  }
+  footer img {
+    height: 1.5rem;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
