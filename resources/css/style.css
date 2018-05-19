@@ -188,13 +188,17 @@ footer img {
 
 h1 {
   margin-right: auto;
-  margin-left: auto;
-  margin-top: 9rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1rem;
-  text-align: center;
+      margin-left: auto;
+      margin-top: 9rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
   }
+  
   .services {
     display: flex;
     flex-direction: column;
@@ -239,7 +243,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   footer p {
     display: none;
   }
